@@ -1,0 +1,9 @@
+plugins {
+    id 'cpp-application'
+}
+
+// Set the target operating system and architecture for this application
+application {
+    // Set the target operating system and architecture for this library
+    targetMachines.add(machines.linux.x86_64)
+}
